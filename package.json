@@ -8,7 +8,7 @@
   "exports": "./src/index.js",
   "files": ["src", "README.md", "LICENSE"],
   "scripts": {
-    "test": "node --test \"test/**/*.test.js\"",
+    "test": "node --test",
     "lint": "node --check src/*.js"
   },
   "engines": { "node": ">=20" },
