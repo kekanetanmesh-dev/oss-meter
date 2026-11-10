@@ -1,0 +1,21 @@
+{
+  "name": "oss-meter",
+  "version": "0.1.0",
+  "description": "Measure a GitHub account against open-source program thresholds: merged PRs into other people's repos, external contributors on your repos, account age and recent activity.",
+  "type": "module",
+  "bin": { "oss-meter": "./src/cli.js" },
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test \"test/**/*.test.js\"",
+    "lint": "node --check src/*.js"
+  },
+  "engines": { "node": ">=20" },
+  "keywords": ["github", "open-source", "maintainer", "contributions", "metrics", "cli", "claude-for-oss"],
+  "author": "Tanmesh Kekane",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/kekanetanmesh-dev/oss-meter.git" },
+  "bugs": { "url": "https://github.com/kekanetanmesh-dev/oss-meter/issues" },
+  "homepage": "https://github.com/kekanetanmesh-dev/oss-meter#readme"
+}
